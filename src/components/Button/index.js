@@ -1,6 +1,7 @@
-import React from "react";
+/* eslint-disable prettier/prettier */
+import React from 'react';
 
-import { ButtonWrapper, ButtonText } from "./styles";
+import { ButtonWrapper, ButtonText } from './styles';
 
 const Button = ({ children, ...rest }) => {
   return (
