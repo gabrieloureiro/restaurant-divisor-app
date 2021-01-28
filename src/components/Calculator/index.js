@@ -22,7 +22,7 @@ const Calculator = () => {
   const share = () => {
     if (!disabled) {
       Share.share({
-        message: `O valor de R$ ${totalValue} dividido para ${personQuantity} foi de R$ ${totalValue / personQuantity}`,
+        message: `O valor de R$ ${totalValue},00 dividido para ${personQuantity} pessoas foi de R$ ${totalValue / personQuantity},00`,
         title: 'Enviar valor para amigos',
       }, {
         dialogTitle: 'Enviar valor para amigos',
