@@ -13,17 +13,17 @@ export const Container = styled.View`
 export const Title = styled.Text`
   font-size: 24px;
   color: #6e37e0;
-
   text-align: center;
-  font-family: 'Poppins-Regular';
-  padding: 64px 0 24px;
+  font-family: 'Poppins-Bold';
+  font-weight: bold;
+  padding: 24px 0;
 `;
 
 export const Value = styled.Text`
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 700;
   color: #6e37e0;
   text-align: center;
   font-family: 'Poppins-Regular';
-  padding: 64px 0 24px;
+  padding: 0px 0 24px;
 `;
