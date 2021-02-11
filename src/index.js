@@ -6,6 +6,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
+import { translate } from './locales';
+
 const customTabBarStyle = {
   activeTintColor: '#6e37e0',
   inactiveTintColor: 'gray',
@@ -25,7 +27,7 @@ export default function App() {
           <Tab.Screen
             name="calculator"
             options={{
-              tabBarLabel: 'Calculadora',
+              tabBarLabel: translate('calculator'),
               tabBarIcon: ({ color }) => (
                 <Icon name="calculator" color={color} size={26} />
               ),
