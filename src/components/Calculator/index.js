@@ -23,11 +23,7 @@ const Calculator = () => {
     if (!disabled) {
       Share.share({
         message:
-          `${translate('shareMessagepartOne')}
-          ${totalValue}${translate('shareMessagepartTwo')}
-          ${personQuantity}
-          ${translate('shareMessagepartThree')}
-          ${totalValue / personQuantity}${translate('shareMessagepartFour')}`,
+          `${translate('shareMessagepartOne')}${totalValue}${translate('shareMessagepartTwo')}${personQuantity}${translate('shareMessagepartThree')}${totalValue / personQuantity}${translate('shareMessagepartFour')}`,
         title: translate('shareMessageTitle'),
       }, {
         dialogTitle: translate('shareMessageTitle'),
